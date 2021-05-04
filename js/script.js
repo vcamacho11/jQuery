@@ -6,6 +6,9 @@ $(document).ready(function(){
         $('#blue-block').removeClass('bg-primary');
         $('#blue-content').removeClass('text-white');
     });
-    $('#shop-button').fadeIn(500)
+    setTimeout(function(){
+        $('#shop-button').fadeIn(500);
+    }, 3000);
+    
     console.log('script loaded');
 })
