@@ -5,6 +5,7 @@ $(document).ready(function(){
     $('#get-started').click(function(){
         $('#blue-block').removeClass('bg-primary');
         $('#blue-content').removeClass('text-white');
-    })
+    });
+    $('#shop-button').fadeIn(500)
     console.log('script loaded');
 })
